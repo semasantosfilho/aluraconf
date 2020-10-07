@@ -1,0 +1,20 @@
+.painel-sobre {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 16px;
+}
+
+.painel-sobre .titulo {
+    font-size: 1.6em;
+}
+
+.painel-sobre .subtitulo {
+    margin-top: 0.7em;
+    font-size: 1.2em;
+}
+
+.painel-sobre .descricao {
+    margin-top: 0.9em;
+    font-size: 0.8em;
+    line-height: 2em;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device.width'>
+
+    <title>Aluraconf</title>
+
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/geral.css'>
+    <link rel='stylesheet' href='css/header.css'>
+    <link rel='stylesheet' href='css/sobre.css'>
+    <link rel='stylesheet' href='css/palestrantes.css'>
+    <link rel='stylesheet' href='css/formulario.css'>
+</head>
+
+<body>
+    <header class='cabecalho'>
+        <nav class='menu-principal'>
+            <ul>
+                <li class='item-de-menu botao-sobre'><a href='#painel-sobre'>SOBRE</a></li>
+                <li class='item-de-menu botao-palestrantes'><a href='#painel-palestrantes'>PALESTRANTES</a></li>
+            </ul>
+        </nav>
+        <div class='painel'>
+            <section class='coordenadas'>
+                <h1 class='nome-evento'>ALURACONF</h1>
+                <h2 class='data-local'>30MAIO|RIO</h2>
+            </section>
+            <section class='botao-inscrevase'>
+                <a class='inscrevase' href='#painel-inscricao'>INSCREVA-SE</a>
+            </section>
+        </div>
+    </div>
+    </header>
+
+    <main>
+
+        <section id='painel-sobre' class='painel-sobre container'>
+            <h1 class='titulo'>
+                Muito conteúdo: do front-end ao back-end
+            </h1>
+            <h2 class='subtitulo'>
+                30 de maio de 2017 - na Cidade Maravilhosa
+            </h2>
+            <div class='descricao'>
+                <p>
+                    Com a AluraConf abordadaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.
+                </p>
+                <p>
+                    É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte back-end com Rest, Microservices e BigData. O desenvolvedor atualizado vai estar aqui.
+                </p>
+            </div>
+        </section>
+
+        <section id='painel-palestrantes' class='painel-palestrantes'>
+            <div class='container'>
+                <h1 class='titulo'>Palestrantes</h1>
+                <h2 class='subtitulo'>Aprenda com palestrantes que são referência no mercado</h2>
+                <ul class='palestrantes'></ul>
+                    <li class='palestrante'>
+                        <img src='img/palestrantes/placeholder.jpeg' class='foto-palestrante'>
+                        <div class='dados-palestrante'>
+                            <p class='nome-palestrante'>Nome Palestrante 1</p>
+                            <p class='cargo-palestrante'>Cargo Palestrante 1</p>
+                            <p class='texto-palestrante'>Texto Palestrante 1</p>
+                        </div>
+                    </li>
+                    <li class='palestrante'>
+                        <img src='img/palestrantes/placeholder.jpeg' class='foto-palestrante'>
+                        <div class='dados-palestrante'>
+                            <p class='nome-palestrante'>Nome Palestrante 2 Nome Palestrante 2</p>
+                            <p class='cargo-palestrante'>Cargo Palestrante 2</p>
+                            <p class='texto-palestrante'>Texto Palestrante 2 Texto Palestrante 2 Texto Palestrante 2 Texto Palestrante 2 Texto Palestrante 2 Texto Palestrante 2 Texto Palestrante 2 Texto Palestrante 2</p>
+                        </div>
+                    </li>
+                    <li class='palestrante'>
+                        <img src='img/palestrantes/placeholder.jpeg' class='foto-palestrante'>
+                        <div class='dados-palestrante'>
+                            <p class='nome-palestrante'>Nome Palestrante 3</p>
+                            <p class='cargo-palestrante'>Cargo Palestrante 3 Cargo Palestrante 3</p>
+                            <p class='texto-palestrante'>Texto Palestrante 3</p>
+                        </div>
+                    </li>
+                    <li class='palestrante'>
+                        <img src='img/palestrantes/placeholder.jpeg' class='foto-palestrante'>
+                        <div class='dados-palestrante'>
+                        <p class='nome-palestrante'>Nome Palestrante 4</p>
+                        <p class='cargo-palestrante'>Cargo Palestrante 4</p>
+                        <p class='texto-palestrante'>Texto Palestrante 4 Texto Palestrante 4 Texto Palestrante 4</p>
+                        </div>
+                    </li>
+                    <li class='palestrante'>
+                        <img src='img/palestrantes/placeholder.jpeg' class='foto-palestrante'>
+                        <div class='dados-palestrante'>
+                        <p class='nome-palestrante'>Nome Palestrante 5</p>
+                        <p class='cargo-palestrante'>Cargo Palestrante 5 Cargo Palestrante 5</p>
+                        <p class='texto-palestrante'>Texto Palestrante 5 Texto Palestrante 5 Texto Palestrante 5</p>
+                        </div>
+                    </li>
+                    <li class='palestrante'>
+                        <img src='img/palestrantes/placeholder.jpeg' class='foto-palestrante'>
+                        <div class='dados-palestrante'>
+                            <p class='nome-palestrante'>Nome Palestrante 6 Nome Palestrante 6</p>
+                            <p class='cargo-palestrante'>Cargo Palestrante 6 Cargo Palestrante 6</p>
+                            <p class='texto-palestrante'>Texto Palestrante 6 Texto Palestrante 6 Texto Palestrante 6</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id='painel-inscricao' class='painel-inscricao container'>
+            <h1 class='titulo'>Seus dados</h1>
+            <form class=''>
+                <label for="nome" class='labels'>Nome</label>
+                <input type="text" id="nome" class="inputs">
+
+                <label for="email" class='labels'>Email</label>
+                <input type="email" id="email" class="inputs">
+                
+                <div class="botao-formulario">
+                    <button class='enviar-formulario'>Realizar inscrição</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src='js/jquery.js'></script>
+    <script src='js/index.js'></script>
+</body>
+
+</html>

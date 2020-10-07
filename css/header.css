@@ -1,0 +1,79 @@
+.cabecalho {
+    min-height: 250px;
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding-top: 1em;
+}
+
+.cabecalho .menu-principal {
+    text-align: center;
+}
+
+.cabecalho .menu-principal .item-de-menu {
+    display: inline-block;
+    padding: 0.5em;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.cabecalho .menu-principal .item-de-menu a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.75em
+}
+
+.cabecalho .menu-principal .item-de-menu:hover {    
+    background-color: #48A3A6;
+    transition: background-color 0.5s;
+}
+
+.cabecalho .painel {
+    font-size: 16px;
+    margin-top: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cabecalho .coordenadas {
+    text-shadow: 4px 4px 4px #333333;   
+}
+
+.cabecalho .painel .coordenadas .nome-evento {
+    color: white;
+    font-size: 3.5em;
+}
+
+.cabecalho .painel .coordenadas .data-local {
+    color: #76FF40;
+    font-size: 3em;
+}
+
+.cabecalho .botao-inscrevase {
+    display: inline-block;
+    margin: 2em auto;
+    padding: 1em 2em;
+    background: #50A3A7;
+    border-radius: 6px;
+}
+
+.cabecalho .botao-inscrevase .inscrevase {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (min-width: 800px) {
+    .cabecalho .painel .coordenadas {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cabecalho .painel .coordenadas {
+        font-size: 10px;
+    }
+}
